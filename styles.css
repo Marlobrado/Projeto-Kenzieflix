@@ -1,0 +1,59 @@
+body{
+   margin: 0;
+   box-sizing: border-box;
+   background-color: #121214;
+}
+main{
+    background-color: #121214;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.cabeca{
+    display: flex;
+    flex-direction: column;
+}
+.logo{
+    padding-top: 42px;
+}
+h1{
+    padding-bottom: 30px;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+
+.container{
+    width: 700px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    font-family: 'IBM Plex Sans', sans-serif;
+}
+.usuario{
+    width: 160px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+button{
+    background-color: #121214;
+    color: white;
+    width: 206px;
+    height: 50px;
+    border: solid;
+    border-radius: 18px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.foto{
+    border-radius: 10px;
+}
+.container div figure img:hover{
+    border: solid  white;
+}
+button:hover{
+    background-color: aliceblue;
+    color: #121214;
+}
